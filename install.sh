@@ -28,9 +28,14 @@ apt-get install -y php5-dev php5-sqlite
 
 # Install Thirth Party Libraries here.
 # Add repository
-add-apt-repository ppa:ubuntu-mozilla-security/ppa
+#add-apt-repository ppa:ubuntu-mozilla-security/ppa
+#apt-get install -y firefox
 
-apt-get install -y firefox
+wget https://ftp.mozilla.org/pub/firefox/releases/31.0b9/linux-x86_64/nl/firefox-31.0b9.tar.bz2
+tar -xjf firefox-31.0b9.tar.bz2
+mv firefox /opt/
+ln -sf /opt/firefox/firefox /usr/bin/firefox
+
 apt-get install -y xvfb
 
 # Install Java dependencies
