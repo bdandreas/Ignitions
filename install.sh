@@ -24,7 +24,7 @@ apt-get install -y software-properties-common python-software-properties
 # Install dependencies
 echo "=========== Installing dependencies ============"
 apt-get build-dep -y php5-cli
-apt-get install -y php5-dev
+apt-get install -y php5-dev php5-sqlite
 
 # Install Thirth Party Libraries here.
 # Add repository
