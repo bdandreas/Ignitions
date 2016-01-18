@@ -36,7 +36,13 @@ apt-get install -y firefox
 apt-get install -y openjdk-7-jre
 
 # PHPUnit installer
-apt-get install -y phpunit
+#apt-get install -y phpunit
+
+# PHPUnit 5.x lastest version only work on php 7
+#apt-get install -y phpunit
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+mv phpunit.phar /usr/local/bin/phpunit
 
 # Install libmemcached
 echo "========== Installing libmemcached =========="
