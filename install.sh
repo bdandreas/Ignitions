@@ -14,7 +14,7 @@ apt-get install -y build-essential
 
 # Install preinstalled php5 version
 # Will be remove once php7 is installed
-apt-get install -y git wget cmake libreadline-dev libzmq-dev mcrypt joe curl libfreetype6-dev git-core autoconf bison libxml2-dev libbz2-dev libcurl4-openssl-dev libltdl-dev libpng-dev libpspell-dev libreadline-dev \
+apt-get install -y git wget cmake libreadline-dev libzmq-dev mcrypt libmcrypt-dev joe curl libfreetype6-dev git-core autoconf bison libxml2-dev libbz2-dev libcurl4-openssl-dev libltdl-dev libpng-dev libpspell-dev libreadline-dev \
 libpng12-dev
 
 #
