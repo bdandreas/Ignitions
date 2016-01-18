@@ -1,4 +1,4 @@
-FROM FROM ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER Brian Andreas <brian@cyclesoftware.nl>
 RUN apt-get update && apt-get install -y ruby ruby-dev
 RUN gem install sinatra
