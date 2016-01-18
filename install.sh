@@ -31,6 +31,7 @@ apt-get install -y php5-dev php5-sqlite
 add-apt-repository ppa:ubuntu-mozilla-security/ppa
 
 apt-get install -y firefox
+apt-get install -y xvfb
 
 # Install Java dependencies
 apt-get install -y openjdk-7-jre
